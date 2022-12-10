@@ -48,7 +48,7 @@ p {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../assets/IMG_0314.jpg");
+    background-image: url("../assets/images/IMG_0314.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -126,8 +126,3 @@ h2 {
     }
   }
   
-@media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
