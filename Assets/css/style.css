@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:darkgray;
+}
+
+header {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("../images/IMG_0314.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-weight: 900;
+}
+
+header nav {
+    margin: 4px 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.about-me {
+    margin: 50px 0 0 50px;
+    display: flex;
+}
+
+.about-me img{
+    border-radius: 200px;
+}
+
+.about-me h2{
+    display: block;
+}
+
+img {
+    width: 30%;
+}
+
+header nav ul li {
+
+    margin-left: 25px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+main {
+}
+section {
+
+    display: flex;
+    margin-left: 20px;
+}
+
+
+section article  {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    color: blue;
+}
+
+
+footer {
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+}
+
+footer h2 {
+    font-weight: 900;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
